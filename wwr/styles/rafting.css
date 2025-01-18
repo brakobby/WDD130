@@ -6,8 +6,65 @@
     --secondary-color: #E60023;
     --accent1-color: #87CEEB;
     --accent2-color: #FFFFFF;
+    --heading-font:'Bungee';
+    --text-font: 'Poppins';
 }
 * {
     box-sizing: border-box;
     text-decoration: none;
 }
+
+body{
+    font-family: var(--text-font);
+}
+
+h1,h2{
+    font-family: var(--heading-font);
+}
+p{
+    font-family: var(--text-font);
+}
+a{
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-size: 1.5rem;
+}
+.hero{
+    position: relative;
+}
+.banner-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+.hero h1{
+    position: absolute;
+    top: 20%;
+    color: var(--accent2-color);
+    left: 35%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+}
+h2{
+    color: var(--primary-color);
+}
+article{
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    background-color: rgba(255,255,255,0.8);
+    padding: 1rem;
+    max-width: 800px;
+    margin-left: 30px;
+}
+.article-img{
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-left: 1rem;
+    
+}
+
+    
+
