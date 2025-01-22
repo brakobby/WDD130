@@ -1,0 +1,39 @@
+
+def register(username,email,password):
+    if username and password and email:
+        return "Registration Successful"
+    else:
+        return "Registration Unsuccessful"
+
+def verify_login(username,password):
+    if username == "Admin" and password == "Admin":
+        return "Login Successful"
+    else:
+        return "Incorrect username and password"
+
+
+import verify
+
+def main():
+    choice = input(""" 
+    1. Registration
+    2. Login
+    
+    choice(1/2):
+    """)
+
+    if choice == "1":
+        username = input("Username: ")
+        email = input("Email: ")
+        password = input("Password: ")
+        verify.register(username, email, password)
+
+
+
+
+
+
+
+
+
+main()
