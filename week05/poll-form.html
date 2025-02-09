@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+   <header>
+        <h1>WDD 130 | Nyonator Samuel Kwabena | HTML Form - User Poll</h1>
+        
+    </header> 
+    <main>
+        <form autocomplete="on">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fname">Full Name: <input type="text" id="fname" name="fname"> </label>
+                <label for="email">Email: <input type="text" id="email" name="email"> </label>   
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your Favorite browser? </label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="opera">Opera</option>
+                    <option value="brave">Brave</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+                <label for="feedback">List the places you have lived: </label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Kumasi, Ashaiman, Osu, Oyebi, Ada"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;2025 | HTML Form - User Poll Activity | Nyonator Samuel Nyonator</p>
+    </footer>
+
+</body>
+</html>
