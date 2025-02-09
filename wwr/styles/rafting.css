@@ -201,33 +201,59 @@ footer{
     padding: 50px;
     padding-left: 100px;
 }
-.form{
-    background-color: rgba(129, 118, 138, 0.141);
-    padding-left: 400px;
-    margin-top: 20px;
-    padding-top: 20px;
+.form-group {
+    margin-bottom: 15px;
 }
-input{
-    width: 60%;
-    padding: 10px;
-    margin: 10px 0;
-    
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+form{
+    background-color: #eae4e44e;
+    padding: 20px;
+    padding-left: 30%;
+    margin-top: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-group .options {
+    display: flex;
+    flex-wrap: wrap;
 }
 textarea{
-    width: 60%;
-    padding: 10px;
-    margin: 10px 0;
-    height: 150px;
+    height: 100px;
+}
+
+.form-group .options label {
+    margin-right: 15px;
 }
 button{
     padding: 10px 20px;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     border: none;
-    width: 200px;
+    width: 400px;
     cursor: pointer;
     margin-bottom: 20px;
-    margin-left: 200px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.link a{
+    text-align: center;
+    color: black;
 }
     
 

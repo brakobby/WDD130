@@ -30,7 +30,7 @@
         </div>
         <div class="map-detail">
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.8635724662663!2d-0.18297052570757538!3d5.73278119424934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf77d6f9aed69b%3A0x4b72360d02bc529b!2sAgape%20Academy%20International!5e0!3m2!1sen!2sgh!4v1738926102373!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.8635724662663!2d-0.18297052570757538!3d5.73278119424934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf77d6f9aed69b%3A0x4b72360d02bc529b!2sAgape%20Academy%20International!5e0!3m2!1sen!2sgh!4v1738926102373!5m2!1sen!2sgh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="company-address">
                 <h3>Our Address</h3>
@@ -43,15 +43,33 @@
         
         <div class="form">
             <form action="contact.php" method="post">
-               <div>
-                <label for="name">Name:</label> <br>  
-                <input type="text" name="name" id="name" required> <br>
-                <label for="email">Email:</label><br>
-                <input type="email" name="email" id="email" required><br>
-                <label for="message">Message:</label> <br>
-                <textarea name="message" id="message" required></textarea> <br>
-                <button type="submit">Send</button>
-            </div>
+                        <label for="name">Name:</label> <br>  
+                        <input type="text" name="name" id="name" required> <br>
+                
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" required><br>
+                
+                        <label for="message">Message:</label> <br>
+                        <textarea name="message" id="message" required></textarea> <br>
+                
+                        <label>Gender:</label> <br>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="other" value="other">
+                        <label for="other">Other</label> <br>
+                
+                        <label>Interests:</label> <br>
+                        <input type="checkbox" name="interests" id="coding" value="coding">
+                        <label for="coding">Coding</label>
+                        <input type="checkbox" name="interests" id="sports" value="sports">
+                        <label for="sports">Sports</label>
+                        <input type="checkbox" name="interests" id="music" value="music">
+                        <label for="music">Music</label> <br>
+                
+                        <button type="submit">Send</button>
+
             </form>
         </div>
     </main>
@@ -59,7 +77,7 @@
         <nav class="social-tab">
             <p>&copy;2025 &#10070; Samuel Kwabena Nyonator &#10070; Ghana</p>
 
-            <p><a href="https://app.moqups.com/pB3g6A2zGNfpmZVQTN76H9d8c3HXiR9l/view/page/ad64222d5" target="_blank" rel="noopener noreferrer">WireFrame Link</a></p>
+            <p class="link"><a href="https://app.moqups.com/pB3g6A2zGNfpmZVQTN76H9d8c3HXiR9l/view/page/ad64222d5" target="_blank" rel="noopener noreferrer">WireFrame Link</a></p>
             <div class="socials">
                 <a href="https://facebook.com">
                     <img src="images/facebook.png" alt="facebook-icon">
