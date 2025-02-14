@@ -144,7 +144,7 @@ figcaption{
 footer{
     background-color:var(--accent1-color);
     color: rgb(14, 1, 1);
-    bottom: 0;
+    bottom: 0px;
     margin-top:20px;
 }
 .social-tab{
@@ -163,9 +163,6 @@ footer{
    
 }
 
-.contact-label{
-    
-}
 .contact-label img{
     width: 100%;
     height: 200px;
@@ -257,3 +254,132 @@ button{
 }
     
 
+/* Home/index page style */
+.home-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #aeaeae40;
+    padding: 10px;
+    padding-left: 6rem;
+}
+.wlc p{
+    text-wrap: wrap;
+    font-family:var(--text-font);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.home-header{
+    position: relative;
+}
+.img-display img{
+    border: 2px;
+    border-radius: 10px;
+    max-width: 400px;
+    height: auto;
+    margin-left: 3rem;
+
+}
+.wlc h2{
+    font-family: var(--text-font);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 0;
+}
+span{
+    font-family: var(--heading-font);
+    font-size: 3rem;
+}
+
+.service{
+    margin-top: 50px;
+}
+.service h2{
+    text-align: center;
+}
+.service-pics{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.service-pics img{
+    width: 300px;
+}
+.service-pics figcaption{
+    width: 300px;
+    text-align: left;
+}
+/* Testimonial Page Styles */
+.testimonial-container{
+    background-color: #c9c9c967;
+}
+.testimonial-container h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusts based on screen size */
+    grid-auto-flow: column; /* Ensures items are placed in a row */
+    gap: 20px; /* Space between testimonials */
+    padding: 20px;
+    margin: 20px;
+    overflow-x: auto; /* Enables horizontal scrolling if needed */
+    white-space: wrap; /* Prevents wrapping */
+}
+
+.testimonials figure{
+    width: 300px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding-top: 30px;
+    
+}
+
+.testimonials img{
+    width: 50px;
+    border-radius: 25px;
+}
+figcaption{
+    width: 250px;
+    text-align: justify;
+    padding-left: 15px;
+}
+.client-profile{
+    display: flex;
+    align-items: center;
+}
+h4{
+    font-weight: bold;
+    font-size: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    text-align: left;
+
+}
+.client-name{
+    font-family: var(--text-font);
+    font-size:12px ;
+    color: var(--primary-color);
+    
+}
+.abt{
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    margin-left: 400px;
+}
+.newsletter{
+    background-color: rgba(76, 74, 74, 0.256);
+    text-align: center;
+    padding-top: 30px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 20px;
+}
