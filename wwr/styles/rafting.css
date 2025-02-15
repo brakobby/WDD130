@@ -225,7 +225,17 @@ input[type="radio"],
 input[type="checkbox"] {
     margin-right: 5px;
 }
-
+.opt{
+    padding: 10px;
+}
+.gend{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.int{
+    padding: 10px;
+    margin-bottom: 5px;
+}
 
 textarea{
     height: 100px;
